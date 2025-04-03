@@ -22,7 +22,7 @@ export const ListaPendiente = () => {
   return (
     <div>
       <h1>Lista Pendiente</h1>
-      <div>
+      <div className="flex">
         <input
           type="text"
           value={newTask}
